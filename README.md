@@ -7,7 +7,21 @@ In order to prescribe a way forward, that is, suggest what should be done in ord
 
 **Here is a sample data set that captures the credit card transaction details for a few users.**
 
-https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/RT7W3bteTX2-1t27Xr19Tw_27ccfcd2e65b4752920e81fda1ae8c5d_DA_1-Image_DataSet_Reading.png?expiry=1795138849635&hmac=qun5wXT17fgrYG8ULxZhzC_F1_EMIgKRy6ofI4qBUVU
+| IP Address | User ID | Account Number | Age | Shipping Address | Transaction Date | Transaction Time | Transaction Value | Product Category | Units Purchased |
+|---|---|---|---|---|---|---|---|---|---|
+| 3.56.123.0 | johnp | 25671147 | 32 | 1542, Orchid Lane, WA 98706, US | 15-5-20 | 15:00:05 | $121.58 | Clothing | 1 |
+| 3.56.123.0 | johnp | 25671147 | 32 | 1542, Orchid Lane, WA 98706, US | 10-6-20 | 10:23:10 | $79.23 | Electronics | 2 |
+| 3.56.123.0 | johnp | 25671147 | 32 | 1542, Orchid Lane, WA 98706, US | 1-6-20 | 07:12:45 | $100.00 | Home Décor | 1 |
+| 1.186.52.7 | johnp | 25671147 | 32 | In-store | 3-6-2020 | 01:11:10 | $2,009.99 | Electronics | 10 |
+| | johnp | 25671147 | 32 | In-store | 2020-06-03 | 01:15:12 | $4,131.00 | Electronics | 15 |
+| 1.186.52.7 | johnp | 25671147 | 32 | P.O. Box 1049 | 03-06-2020 | 01:22:24 | $3,010.50 | Tools | 20 |
+| 1.58.167.2 | davidg | 51422789 | 47 | 90 Robinson Blvd, Alberta, 97602, Canada | 15 May 2020 | 17:02:08 | $234.20 | Furniture | 1 |
+| 1.58.167.2 | davidg | 51422789 | 47 | 90 Robinson Blvd, Alberta, 97602, Canada | 18 May 2020 | 19:12:45 | $141.00 | Kitchen Supplies | 3 |
+| | davidg | 51422789 | 47 | 90 Robinson Blvd, Alberta, 97602, Canada | 01 June 2020 | 17:34:15 | $157.25 | Car Spares | 2 |
+| 1.58.167.2 | davidg | 51422789 | 47 | 90 Robinson Blvd, Alberta, 97602, Canada | 13 June 2020 | 18:02:10 | $59.99 | Kitchen Supplies | 1 |
+| 172.165.10.1 | ellend | 11568528 | | P.O. Box 1310 | 07 June 2020 | 15:53:12 | $99.99 | Clothing | 1 |
+| 172.165.10.1 | ellend | 11568528 | | P.O. Box 1322 | 08 June 2020 | 17:15:30 | $53.15 | Beauty | 1 |
+| 1.167.255.10 | ellend | 11568528 | | P.O. Box 5401 | 02 July 2020 | 00:05:10 | $4,895.00 | Laptop | 1 |
 
 Descriptive techniques of analysis, that is, techniques that help you gain an understanding of what happened, include the identification of patterns and anomalies in data. Anomalies signify a variation in a pattern that seems uncharacteristic, or, out of the ordinary. Anomalies may occur for perfectly valid and genuine reasons, but they do warrant an evaluation because they can be a sign of fraudulent activity.  
 
@@ -31,4 +45,4 @@ Descriptive techniques of analysis, that is, techniques that help you gain an un
 
 Finally, when you arrive at the findings, you will create appropriate visualizations that communicate your findings to your audience. The graph below samples one such visualization that you would use to capture a trend hidden in the sample data set shared earlier on in the case study.
 
-https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/kumNKCbZSdqpjSgm2Ynaxw_0326b11a493e49e1b10bc7b2a1f5d7e2_DA_1-Q9-Chart.png?expiry=1795138849634&hmac=ImsgCQSuRAThJaCsaK3PSYT4lWsKNe3vFfU-AdogXbg
+![Transaction Value per Transaction](images/transaction_value.png)
