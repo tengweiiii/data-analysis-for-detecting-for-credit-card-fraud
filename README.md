@@ -108,9 +108,9 @@ Be specific in your explanations, using appropriate terminology from data analyt
 - **Location Information:** Comparing the transaction location with the cardholder's usual billing or shipping location helps identify potentially suspicious geographical differences.
 
 **2. Data Quality Issues**
-1. **Missing Values:** Some records contain missing IP addresses and age values, which may result in incomplete analysis.
-2. **Inconsistent Date Formats:** Dates appear in different formats, such as "15-5-20", "15 May 2020" and "2020-06-03". These need to be standardized to ensure accurate chronological analysis.
-3. **Inconsistent Shipping Information:** Shipping details include home addresses, in-store collection and P.O. Box addresses. These should be properly categorized to support accurate comparisons and avoid misinterpretation.
+- **Missing Values:** Some records contain missing IP addresses and age values, which may result in incomplete analysis.
+- **Inconsistent Date Formats:** Dates appear in different formats, such as "15-5-20", "15 May 2020" and "2020-06-03". These need to be standardized to ensure accurate chronological analysis.
+- **Inconsistent Shipping Information:** Shipping details include home addresses, in-store collection and P.O. Box addresses. These should be properly categorized to support accurate comparisons and avoid misinterpretation.
 
 **3. Possible Anomalies or Suspicious Patterns**
 - **Unusually High Transaction Values:** Johnp's transaction values increased significantly from $121.58 and $79.23 to $2,009.99, $4,131.00 and $3,010.50. This sudden increase may indicate abnormal spending behaviour.
