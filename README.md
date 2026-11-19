@@ -117,7 +117,9 @@ Be specific in your explanations, using appropriate terminology from data analyt
 - **Changes in Shipping Address and IP Address:** Johnp's shipping preference changed from a residential address to in-store collection and a P.O. Box. His IP address also changed from 3.56.123.0 to 1.186.52.7. These changes may indicate unauthorized transactions.
 
 **4. Key Analytical Insight from the Visualization**
+
 The line chart shows that Johnp's transaction values increased significantly in Transactions 3, 4 and 5, compared with his first two transactions. Ellend also recorded a high transaction value of approximately $4,895 in Transaction 3. These unusual spending patterns highlight potential anomalies that require further investigation.
 
 **5. Type of Analysis**
+
 **Descriptive Analysis** is being performed because it examines historical transaction data to understand what has happened. It helps identify patterns, trends and anomalies in customer behaviour, providing insights that can support the early detection of potential fraudulent activities.
