@@ -32,3 +32,58 @@ Descriptive techniques of analysis, that is, techniques that help you gain an un
 Finally, when you arrive at the findings, you will create appropriate visualizations that communicate your findings to your audience. The graph below samples one such visualization that you would use to capture a trend hidden in the sample data set shared earlier on in the case study.
 
 ![Transaction Value per Transaction](images/transaction-value.png)
+
+## Case Study
+
+1. Based on the data table, identify which transaction stands out as the highest value in the dataset. (1 point)
+   ```
+   Ellend - $4,895.00 (Laptop)
+   ```
+> **Grading Feedback**: Ellend made a high value transaction.
+   
+2. Based on the overall trend in the chart, which user's transactions may require closer monitoring for potential fraud (1 point)
+   ```
+   Johnp and Ellend
+   ```
+> **Grading Feedback**: Both Johnp and Ellend require closer monitoring. Johnp shows unusually high transactions in Trn#3 and Trn#4 compared to earlier activity, while Ellend’s single large spike at Trn#3 is highly irregular. Both patterns deviate significantly from their typical behavior.
+
+3. Identify 3 errors/issues that could impact the accuracy of your findings (3 points)
+   ```
+   Different date formats (e.g., 15-5-20 vs 01 June 2020)
+   Missing transaction values
+   Missing IP address
+   ```
+> Grading Feedback:
+> Inconsistent date formats can cause parsing errors and lead to incorrect analysis or reporting.
+> Missing values affect data completeness and can distort calculations, trends, and insights.
+> IP addresses are critical for tracking, auditing, and identifying suspicious activity; missing values reduce data reliability.
+   
+4. Which type of analysis are you performing in the case study when examining historical credit card data to understand the characteristics of fraudulent transaction? (1 point)
+   ```
+   Descriptive analysis
+   ```
+> **Grading Feedback**: This analysis involves describing past data to understand its characteristics.
+
+5. What is a sudden switch from a customer's regular residential delivery address to a PO Box most likely regarded as? (1 point)
+   ```
+   An unusual pattern
+   ```
+> **Grading Feedback**: This is typically viewed as an anomaly.
+
+6. Examine the transaction for the user johnp and explain why their purchasing behaviour could be considered suspicious. Support your conclusion with at least two distinct data points from the table. (2 points)
+   ```
+   * Transaction Value: johnp's transaction values suddenly increased from $121.58 and $79.23 to $2,009.99, $4,131.00 and $3,010.50.
+   * Shipping Address: His shipping preference suddenly changed from his home address to in-store collection and a P.O. Box.
+   * IP Address: His IP address changed from 3.56.123.0 to 1.186.52.7.
+   ```
+> **Grading Feedback**: You support your suspicion with several distinct changes, including much higher transaction amounts, changed shipping preferences, and a different IP address. This directly addresses the question with specific data points.
+
+7. Which of the following sets of data points are required for analysis and detection of credit card fraud? (1 point)
+    ```
+    Cardholder details (e.g., Customer ID, Account status)
+    Transaction amount
+    Transaction timestamp
+    Delivery address
+    IP address
+    ```
+> **Grading Feedback**: These data points are essential for fraud detection as they help analyze transaction behavior, identify anomalies, and assess risk based on location, timing, and account activity.
