@@ -39,13 +39,13 @@ Finally, when you arrive at the findings, you will create appropriate visualizat
    ```
    Ellend - $4,895.00 (Laptop)
    ```
-> **Grading Feedback**: Ellend made a high value transaction.
+   > **Grading Feedback**: Ellend made a high value transaction.
    
 2. Based on the overall trend in the chart, which user's transactions may require closer monitoring for potential fraud (1 point)
    ```
    Johnp and Ellend
    ```
-> **Grading Feedback**: Both Johnp and Ellend require closer monitoring. Johnp shows unusually high transactions in Trn#3 and Trn#4 compared to earlier activity, while Ellend’s single large spike at Trn#3 is highly irregular. Both patterns deviate significantly from their typical behavior.
+   > **Grading Feedback**: Both Johnp and Ellend require closer monitoring. Johnp shows unusually high transactions in Trn#3 and Trn#4 compared to earlier activity, while Ellend’s single large spike at Trn#3 is highly irregular. Both patterns deviate significantly from their typical behavior.
 
 3. Identify 3 errors/issues that could impact the accuracy of your findings (3 points)
    ```
@@ -53,22 +53,22 @@ Finally, when you arrive at the findings, you will create appropriate visualizat
    Missing transaction values
    Missing IP address
    ```
-> Grading Feedback:
-> Inconsistent date formats can cause parsing errors and lead to incorrect analysis or reporting.
-> Missing values affect data completeness and can distort calculations, trends, and insights.
-> IP addresses are critical for tracking, auditing, and identifying suspicious activity; missing values reduce data reliability.
+   > **Grading Feedback**:
+   > * Inconsistent date formats can cause parsing errors and lead to incorrect analysis or reporting.
+   > * Missing values affect data completeness and can distort calculations, trends, and insights.
+   > * IP addresses are critical for tracking, auditing, and identifying suspicious activity; missing values reduce data reliability.
    
 4. Which type of analysis are you performing in the case study when examining historical credit card data to understand the characteristics of fraudulent transaction? (1 point)
    ```
    Descriptive analysis
    ```
-> **Grading Feedback**: This analysis involves describing past data to understand its characteristics.
+   > **Grading Feedback**: This analysis involves describing past data to understand its characteristics.
 
 5. What is a sudden switch from a customer's regular residential delivery address to a PO Box most likely regarded as? (1 point)
    ```
    An unusual pattern
    ```
-> **Grading Feedback**: This is typically viewed as an anomaly.
+   > **Grading Feedback**: This is typically viewed as an anomaly.
 
 6. Examine the transaction for the user johnp and explain why their purchasing behaviour could be considered suspicious. Support your conclusion with at least two distinct data points from the table. (2 points)
    ```
@@ -76,7 +76,7 @@ Finally, when you arrive at the findings, you will create appropriate visualizat
    * Shipping Address: His shipping preference suddenly changed from his home address to in-store collection and a P.O. Box.
    * IP Address: His IP address changed from 3.56.123.0 to 1.186.52.7.
    ```
-> **Grading Feedback**: You support your suspicion with several distinct changes, including much higher transaction amounts, changed shipping preferences, and a different IP address. This directly addresses the question with specific data points.
+   > **Grading Feedback**: You support your suspicion with several distinct changes, including much higher transaction amounts, changed shipping preferences, and a different IP address. This directly addresses the question with specific data points.
 
 7. Which of the following sets of data points are required for analysis and detection of credit card fraud? (1 point)
     ```
@@ -86,4 +86,4 @@ Finally, when you arrive at the findings, you will create appropriate visualizat
     Delivery address
     IP address
     ```
-> **Grading Feedback**: These data points are essential for fraud detection as they help analyze transaction behavior, identify anomalies, and assess risk based on location, timing, and account activity.
+   > **Grading Feedback**: These data points are essential for fraud detection as they help analyze transaction behavior, identify anomalies, and assess risk based on location, timing, and account activity.
