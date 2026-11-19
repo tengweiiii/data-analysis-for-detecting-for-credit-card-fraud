@@ -87,3 +87,37 @@ Finally, when you arrive at the findings, you will create appropriate visualizat
     IP address
     ```
    > **Grading Feedback**: These data points are essential for fraud detection as they help analyze transaction behavior, identify anomalies, and assess risk based on location, timing, and account activity.
+
+
+You are a Data Analyst at a financial institution investigating irregularities in recent transactions. Based on the dataset and chart provided, respond to the following in 300–400 words:
+
+1. Identify at least five data points that would be **essential** for analyzing and detecting potential credit card fraud, explaining why each is relevant.
+2. Describe three **data quality issues** that could affect the accuracy or reliability of your analysis (e.g., missing values, inconsistencies).
+3. Identify two **possible anomalies or suspicious transaction patterns** that could indicate fraudulent activity.
+4. From the provided transaction visualization, summarize your **key analytical insight** that supports your findings.
+5. State the **type of analysis** being performed when using historical credit card data to understand patterns of fraudulent transactions—and justify your choice.
+
+Be specific in your explanations, using appropriate terminology from data analytics concepts covered in this course.
+
+**1. Essential Data Points for Fraud Detection**
+
+- **Cardholder Details:** User ID, account number and age help identify the cardholder and track individual transaction histories.
+- **Transaction Details:** Transaction date, time, value, product category and units purchased help identify unusual spending behaviour, such as unusually high transaction amounts or bulk purchases.
+- **Shipping Address:** Delivery information helps detect sudden changes in delivery preferences, such as switching from a home address to in-store collection or a P.O. Box.
+- **IP Address:** This helps identify the network location used to make purchases. An unfamiliar or frequently changing IP address may indicate unauthorized access.
+- **Location Information:** Comparing the transaction location with the cardholder's usual billing or shipping location helps identify potentially suspicious geographical differences.
+
+**2. Data Quality Issues**
+1. **Missing Values:** Some records contain missing IP addresses and age values, which may result in incomplete analysis.
+2. **Inconsistent Date Formats:** Dates appear in different formats, such as "15-5-20", "15 May 2020" and "2020-06-03". These need to be standardized to ensure accurate chronological analysis.
+3. **Inconsistent Shipping Information:** Shipping details include home addresses, in-store collection and P.O. Box addresses. These should be properly categorized to support accurate comparisons and avoid misinterpretation.
+
+**3. Possible Anomalies or Suspicious Patterns**
+- **Unusually High Transaction Values:** Johnp's transaction values increased significantly from $121.58 and $79.23 to $2,009.99, $4,131.00 and $3,010.50. This sudden increase may indicate abnormal spending behaviour.
+- **Changes in Shipping Address and IP Address:** Johnp's shipping preference changed from a residential address to in-store collection and a P.O. Box. His IP address also changed from 3.56.123.0 to 1.186.52.7. These changes may indicate unauthorized transactions.
+
+**4. Key Analytical Insight from the Visualization**
+The line chart shows that Johnp's transaction values increased significantly in Transactions 3, 4 and 5, compared with his first two transactions. Ellend also recorded a high transaction value of approximately $4,895 in Transaction 3. These unusual spending patterns highlight potential anomalies that require further investigation.
+
+**5. Type of Analysis**
+**Descriptive Analysis** is being performed because it examines historical transaction data to understand what has happened. It helps identify patterns, trends and anomalies in customer behaviour, providing insights that can support the early detection of potential fraudulent activities.
